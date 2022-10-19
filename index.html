@@ -4,32 +4,38 @@
         <meta charset = "utf-8">
         <title>My Portfolio</title>
         <link href = "style.css" rel = "stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
+        <main>
         <header>
             <h1>Abdul Bassit Sadiq</h1>
             <nav>
                 <ul>
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
+                    <li><a href = "#about">About Me</a></li>
+                    <li><a href = "#projects">Projects</a></li>
+                    <li><a href = "#skills">Skills</a></li>
+                    <li><a>Contact</a></li>
                 </ul>
             </nav>
         </header>
 
-        <section>
+        <section id = "about">
+            <div>
             <h2>About Me</h2>
             <p>I am a self taught developer currently learning the fundamentals of Web Development.
                 So far i have learnt the basics of HTML, CSS, and JavaScript along with technologies like
-                Git and Node. 
+                Git and Node. <br>
                 My goal is become a full-stack developer by learning tecnologies like React and Redux and
                 also the fundamentals of back-end dvelopment.
+
+
             </p>
+            </div>
             <img src = "resources/frame.png" alt = "Placeholder" height = "400" width = "350">
         </section>
 
-        <section>
+        <section id = "projects">
             <h2>Projects</h2>
             <dl>
                 <dt>Mixed Messages</dt>
@@ -40,7 +46,7 @@
             </dl>
         </section>
 
-        <section>
+        <section id = "skills">
             <h2>Skills</h2>
             <ul>
                 <li>
@@ -81,6 +87,7 @@
                 </li>
             </ul>
         </section>
+        </main>
 
     </body>
     

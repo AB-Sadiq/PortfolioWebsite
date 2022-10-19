@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main {
+    background-color: white;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    padding-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#about {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    background-color: beige;
+}
+
+
+#about div {
+    text-align: center;
+    padding: 80px;
+}
+
+#projects {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#projects h2, dl {
+    padding-left: 20px;
+}
+
+
+#projects dl dd {
+    display: none;
+}
+
+#skills {
+    background-color: beige;
+
+}
+
+#skills h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#skills li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+
+
