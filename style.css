@@ -37,6 +37,7 @@ nav a {
 
 #about {
     display: flex;
+    
     justify-content: space-around;
     align-content: flex-end;
     background-color: beige;
@@ -75,6 +76,46 @@ nav a {
     list-style: none;
     display: inline-block;
 
+}
+
+figcaption {
+    text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+    #about {
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        flex-wrap: wrap;
+    }
+    
+    h1 {
+        text-align: center;
+        margin: auto;
+    }
+    #about img {
+        display: none;
+    }
+
+    nav ul li {
+
+        padding: 5px;
+    }
 }
 
 
